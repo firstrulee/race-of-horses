@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race of Horses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="start-con" id="start">
+            <div class="header">
+                <h3>username</h3>
+                <h1>WELCOME HORSES RACE</h1>
+                <h3>Balance : <span id="balance">10 $</span></h3>
+            </div>
+            <div class="coupon-con">
+                <div id="horsesOddsDiv" class="horses">
+                    
+                </div>
+                <div class="coupon">
+                    <h1>Coupon</h1>
+                    <div id="values" class="values">
+
+                    </div>
+                    <input type="number" id="betValue" placeholder="Please enter the bet amount" min="0" disabled>
+                    <h2>Possible Earnings : <span id="earning"></span></h2>
+                    <button id="clear">Clear</button>
+                </div>
+            </div>
+            <div class="button-con">
+                <p id="alert" ></p>
+                <button id="startButton">Start Race</button>
+            </div>
+        </div>
+
+        <div class="game-con" id="game">
+            <div class="lane-con" >
+                <div class="line"></div>
+                   <div class="horse-con">
+                        <div id="horse-one" class="horse">
+                            1
+                        </div>
+                   </div>     
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-two" class="horse">
+                            2
+                        </div>
+                   </div>                                
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-three" class="horse">
+                            3
+                        </div>
+                   </div>                    
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-four" class="horse">
+                            4
+                        </div>
+                   </div>
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-five" class="horse">
+                            5
+                        </div>
+                   </div>
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-six" class="horse">
+                            6
+                        </div>  
+                   </div>
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-seven" class="horse">
+                            7
+                        </div>
+                   </div>
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-eight" class="horse">
+                            8
+                        </div>
+                   </div>
+                <div class="line"></div>
+            </div>
+            <div class="lane-con">
+                <div class="line"></div>
+                    <div class="horse-con">
+                        <div id="horse-nine" class="horse">
+                            9
+                        </div>  
+                   </div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="popup-con" id="popup">
+            <div class="popup">
+                <h1 id="result"></h1>
+                <h2 >Winning Horse : <span id="winningHorse" ></span></h2>
+                <h3>New Balance : <span id="newBalance" ></span></h3>
+                <button id="newGame">New Game</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

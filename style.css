@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .start-con {
+    background-color: rgb(190, 86, 0);
+    width: 1600px;
+    height: 768px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+
+.container .start-con .header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container .start-con .coupon-con {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .start-con .coupon-con .coupon {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .start-con .coupon-con .coupon .values {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .start-con .coupon-con .horses {
+    width: 600px;
+    height: 450px;
+    display: grid ;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .start-con .coupon-con .horses button {
+    width: 150px;
+    height: 25px;
+
+}
+
+
+.container .start-con .button-con {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .start-con .button-con button {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(73, 129, 1);
+    border-radius: 10px;
+}
+
+
+.container .game-con {
+    width: 1600px;
+    height: 768px;
+    background-color: rgb(190, 86, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.container .game-con .lane-con{
+    width: 1450px;
+    height: 70px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.container .game-con .lane-con .line {
+    width: 1400px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-right: 115px;
+
+}
+
+.container .game-con .lane-con .horse-con {
+    width: 1575px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.container .game-con .lane-con .horse-con .horse {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    transition: transform 0.5s linear;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container .popup-con {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.87);
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.container .popup-con .popup {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .popup-con .popup h1 {
+    font-size: 60px;
+}
+
+
+
